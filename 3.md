@@ -1,0 +1,42 @@
+# Number 3 Livecode Simulation 1
+
+## **Three Cols Box**
+
+## DIRECTION
+
+Buatlah sebuah program dengan satu buah variable `row` yang akan mewakilkan jumlah baris yang akan kita buat. Setiap baris yang dibuat akan memiliki 3 buah `col`.
+
+Buatlah sebuah output angka yang berurutan dimulai dari 1 hingga angka maksimum yang bisa di capai dari informasi `row` dan `col` yang diberikan.
+
+Note: pola angka harus dimulai dari 1, dan setiap angka diberikan spasi.
+
+
+### Contoh:
+
+```js
+let row = 3
+// output
+// 1 2 3
+// 4 5 6
+// 7 8 9
+```
+
+```js
+let row = 5
+// output
+// 1 2 3
+// 4 5 6
+// 7 8 9
+// 10 11 12
+// 13 14 15
+```
+
+```js
+let row = 1
+// output
+// 1 2 3
+```
+
+## RULES:
+- Tidak diperbolehkan menggunakan built-in function:
+  .map .filter .reduce .split .join .indexOf .findIndex .substrin
